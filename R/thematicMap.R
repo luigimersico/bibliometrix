@@ -100,7 +100,7 @@ thematicMap <- function(M, field="ID", n=250, minfreq=5, stemming=FALSE, size=0.
   ###
 
 
-  C=diag(NetMatrix)
+  C=Matrix::diag(NetMatrix)
 
   sEij=S[index,index]
   #dim(sEij)
